@@ -13,7 +13,7 @@ dotenv.config();
 
 
 app.use(cors({
-  origin: 'http://localhost:3000', 
+   orgin:'https://stellular-gelato-2d4e21.netlify.app',
   credentials: true
 }));
 app.use(express.json());
